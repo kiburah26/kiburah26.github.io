@@ -1,0 +1,116 @@
+body{margin: 0;
+	padding: 0;}
+
+
+	/*styles for nav bar*/
+ 
+
+ .nav >ul{background: #2600ff;
+         width: 100%;
+         list-style: none;
+         margin:0;
+         padding: 0;
+         overflow: hidden;
+         }
+
+.nav>ul>li{float: left;}         
+
+.nav>ul>li>a{display: block;
+            text-decoration: none;
+            color: #ff00aa;
+            padding: 16px 12px;}
+
+
+.nav>ul>li>a:hover{background: #ba1414;
+                   color:#7fff00;
+                    border-bottom: 2px solid #76ff00;}  
+
+
+
+.active{background: #90ff00;} 
+
+
+.content{text-align: center;
+         margin:20px;
+        color:#f2dede; } 
+
+
+
+  .smaller{float:left;
+            text-decoration-color: #fff;         
+            width: 45%;
+           height: 70%;
+           margin-right: 10px;
+           border-radius: 4px;
+          margin-left: 10px;  
+          padding-right: 10px auto;
+         padding-left: 10px auto;
+         box-sizing: border-box;
+       font-family: 'Lobster', cursive;}
+      
+                                                       
+
+
+   .lower{overflow: hidden;
+        
+            width: 94%;
+           height: 90%;
+           margin :10px auto;
+           padding-top: 20px;
+           padding-bottom: 20px;
+          padding-right: 30px auto;
+         padding-left: 50px;
+         font-family: 'Pacifico', cursive;} 
+
+
+     .smaller>h3{color: #f2dede;}    
+
+       .lower{color: #0026ff;}
+
+
+
+
+    {box-sizing: border-box;  
+}
+
+    .columns {float: left;
+              width: 20%;
+             /* padding: 8px;*/
+}
+
+   .price {list-style-type: none;
+           border: 2px solid #e20f0f;
+           margin: 0;
+           padding: 0;
+          /*-webkit-transition: 0.3s;
+            transition: 0.3s;*/
+}
+  .price:hover {box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header { background-color: #a68768;
+                color: #4c564e;
+                font-size: 25px;
+}
+
+.price li { border-bottom: 1px solid #7700ff;
+            padding: 20px;
+            text-align: center;
+}
+
+.price .grey {background-color: #efdada;
+              font-size: 20px;
+}
+
+
+.button {background-color: #6e00ff;
+         border: none;
+         color: #1009c6;
+         padding: 10px 25px;
+         text-align: center;
+         text-decoration: none;
+        font-size: 18px;
+}
+
+
+   
